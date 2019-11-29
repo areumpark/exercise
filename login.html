@@ -3,6 +3,8 @@
 <head>
 	<title>Claire's CV</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
 </head>
 <body>
 	<header>
@@ -21,12 +23,25 @@
 	</header>
 	<section>
 		<h2><span class="article-title">Login</span></h2>
-		<article class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<!-- <article class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article> -->
 	</section>
+	<form id="login" action="/contact.html" method="post">
+		<br>
+		<label  for="account-id"> <span id="account-password-1">Account</span></label>
+		<input type="text" id="account-id" name="account">
+		<br>
+		<label for="password-login"> <span id="account-password-2">Password </span></label>
+		<input type="password" id="password-login" name="password" required minlength="6" maxlength="10">
+		<br>
+		<input type="submit" value="[ Happy to be here ] " id="account-password-3">
+		
+
+
+	</form>
 </body>
 </html>
