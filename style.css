@@ -119,13 +119,14 @@ h2 {
 #account-password-3 {
 
 
+    
     background-color: #f7f7f7;
     border: none;
     color: #5d5d5d;
     margin: 15px;
-    height: 45px;
-    width: 280px;
-    font: 300 30px lato, sans-serif;
+    height: 40px;
+    width: 240px;
+    font: 300 17px lato, sans-serif;
     text-shadow:none;
     
 }
