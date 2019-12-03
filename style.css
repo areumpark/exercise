@@ -101,6 +101,7 @@ h2 {
 #account-password-1 {
 
      border-bottom: lightgrey solid 2px;
+     padding-bottom: 5px;
      margin: 10px;
      display: inline-block;
 	 
@@ -110,6 +111,7 @@ h2 {
 #account-password-2 {
 
 	border-bottom: lightgrey solid 2px;
+	padding-bottom: 5px;
      margin: 10px;
      display: inline-block;
 
@@ -127,8 +129,22 @@ h2 {
     width: 240px;
     font: 300 17px lato, sans-serif;
     text-shadow:none;
+    transition: all 1s;
     
 }
+
+
+#account-password-3:hover {
+
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
 
 
 
